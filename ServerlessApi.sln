@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC8DD8BC-C2B9-46A9-8BBE-AE7FF9654753}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7138AAB5-D4F5-4F54-B4FA-94CDE434C003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessApi", "src\ServerlessApi\ServerlessApi.csproj", "{289DE57C-18D3-4661-8D10-FAFE2023827B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessApi.Tests", "test\ServerlessApi.Tests\ServerlessApi.Tests.csproj", "{17B01070-C0B0-4BD2-81CA-86B403115056}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{289DE57C-18D3-4661-8D10-FAFE2023827B} = {CC8DD8BC-C2B9-46A9-8BBE-AE7FF9654753}
+		{17B01070-C0B0-4BD2-81CA-86B403115056} = {7138AAB5-D4F5-4F54-B4FA-94CDE434C003}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{289DE57C-18D3-4661-8D10-FAFE2023827B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289DE57C-18D3-4661-8D10-FAFE2023827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289DE57C-18D3-4661-8D10-FAFE2023827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289DE57C-18D3-4661-8D10-FAFE2023827B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B01070-C0B0-4BD2-81CA-86B403115056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B01070-C0B0-4BD2-81CA-86B403115056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B01070-C0B0-4BD2-81CA-86B403115056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B01070-C0B0-4BD2-81CA-86B403115056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
